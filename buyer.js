@@ -11,7 +11,7 @@ chrome.runtime.onMessage.addListener(function(message) {
         return;
     }
 
-    selectSize();
+    selectSize(10);
 
     clickOnBuyButton();
 
